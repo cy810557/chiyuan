@@ -1,0 +1,29 @@
+%% 该脚本实现对曝光过度或者不足的照片进行简单的三通道直方图均衡处理。处理过的照片
+% 对比度明显改善
+I=imread('baog.jpg');
+r=I(:,:,1);
+g=I(:,:,2);
+b=I(:,:,3);
+hisr=imhist(r);
+hisg=imhist(g);
+hisb=imhist(b);
+%%
+figure;
+subplot(311);imhist(r);
+subplot(312);imhist(g);
+subplot(313);imhist(b);
+%%
+outr=histeq(r);
+outg=histeq(g);
+outb=histeq(b);
+%%
+figure;
+subplot(311);imhist(outr);
+subplot(312);imhist(outg);
+subplot(313);imhist(outb);
+%%
+J(:,:,1)=outr;
+J(:,:,2)=outg;
+J(:,:,3)=outb;
+figure;
+imshowsub(I,J);
