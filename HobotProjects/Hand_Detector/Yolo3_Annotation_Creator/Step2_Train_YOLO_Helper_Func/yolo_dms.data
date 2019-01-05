@@ -1,0 +1,4 @@
+classes= 1
+train = /mnt/hdfs-data-2/data/chengyuan.yang/DMS/Prepare_YOLO_Annotition/YOLO_DMS/data/train_list.txt
+names = /mnt/hdfs-data-2/data/chengyuan.yang/DMS/Prepare_YOLO_Annotition/YOLO_DMS/data/dms_yolo.names
+backup= /mnt/hdfs-data-2/data/chengyuan.yang/DMS/Prepare_YOLO_Annotition/YOLO_DMS/backup
