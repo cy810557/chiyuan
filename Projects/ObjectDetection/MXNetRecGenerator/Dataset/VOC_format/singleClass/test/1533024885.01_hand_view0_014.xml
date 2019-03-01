@@ -1,0 +1,26 @@
+<annotation>
+	<folder>hand</folder>
+	<filename>1533024885.01_hand_view0_014.jpg</filename>
+	<path>D:\Programs\Tensorflow_Object\Original_Dataset\Frame_Dataset\TEST\hand\1533024885.01_hand_view0_014.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hand</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>330</xmin>
+			<ymin>220</ymin>
+			<xmax>492</xmax>
+			<ymax>315</ymax>
+		</bndbox>
+	</object>
+</annotation>

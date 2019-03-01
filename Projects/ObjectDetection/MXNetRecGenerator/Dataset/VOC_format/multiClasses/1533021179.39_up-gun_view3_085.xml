@@ -1,0 +1,26 @@
+<annotation>
+    <folder>up-gun</folder>
+    <filename>1533021179.39_up-gun_view3_085.jpg</filename>
+    <path>D:\Programs\Tensorflow_Object\models\research\object_detection\1533021179.39_up-gun_view3_085.jpg</path>
+    <source>
+        <database>COCO</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>up-gun</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>4</xmin>
+            <ymin>263</ymin>
+            <xmax>227</xmax>
+            <ymax>476</ymax>
+        </bndbox>
+    </object>
+</annotation>

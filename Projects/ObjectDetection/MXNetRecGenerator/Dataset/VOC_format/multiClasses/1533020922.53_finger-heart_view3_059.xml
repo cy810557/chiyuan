@@ -1,0 +1,26 @@
+<annotation>
+    <folder>finger-heart</folder>
+    <filename>1533020922.53_finger-heart_view3_059.jpg</filename>
+    <path>D:\Programs\Tensorflow_Object\models\research\object_detection\1533020922.53_finger-heart_view3_059.jpg</path>
+    <source>
+        <database>COCO</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>finger-heart</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>40</xmin>
+            <ymin>108</ymin>
+            <xmax>197</xmax>
+            <ymax>307</ymax>
+        </bndbox>
+    </object>
+</annotation>

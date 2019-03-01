@@ -1,0 +1,26 @@
+<annotation>
+    <folder>first</folder>
+    <filename>1533020940.97_first_view3_099.jpg</filename>
+    <path>D:\Programs\Tensorflow_Object\models\research\object_detection\1533020940.97_first_view3_099.jpg</path>
+    <source>
+        <database>COCO</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>first</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>206</xmin>
+            <ymin>230</ymin>
+            <xmax>331</xmax>
+            <ymax>357</ymax>
+        </bndbox>
+    </object>
+</annotation>
