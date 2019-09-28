@@ -1,6 +1,8 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+#include<string>
+#include<sstream>
 using namespace std;
 
 pair<int, int> divmod(int t1, int t2){
@@ -14,10 +16,26 @@ void divmod(int t1, int t2, int &quot, int &remi){
 
 int reverse(int x){
     int flag_neg = 0;
+    int reminder = 0;
+    int result = 0;
     if(x<0) flag_neg=1;
+    while(x!=0){
+        divmod(x, 10, x, reminder);
+        result = result*10 + reminder;
+    }
+    if (flag_neg==1) result *= -1;
+    return result;
 }
 
-int main(){
+int atoi(const string &s){
+    stringstream ss;
+    int n;
+    ss<<s;
+    ss>>n;
+    return n;
+}
+
+int main(int argc, char *argv[]){
     int dig = 1234;
     cout<<dig/1000<<endl;
     cout<<dig%1000<<endl;
@@ -32,5 +50,7 @@ int main(){
     int r1, r2;
     divmod(dig, 1000, r1, r2);
     cout<<"quot: "<<r1<<", remi: "<<r2<<endl;
-
+    cout<<"======= Main func: reverse integer: ======="<<endl;
+    cout<<"input: "<<argv[1]<<", after reverse: "<<reverse(atoi(argv[1]))<<endl;
+    return 0;
 }
