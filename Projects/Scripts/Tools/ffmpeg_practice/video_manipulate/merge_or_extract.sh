@@ -1,3 +1,6 @@
+# reference
+# https://www.bilibili.com/video/av40146374/?p=1
+
 # extract video with no audio
 ffmpeg -i <infile> -vcodec copy -an <outfile.mp4>
 
